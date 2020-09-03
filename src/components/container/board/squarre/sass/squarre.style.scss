@@ -1,0 +1,49 @@
+.squarre {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid #333;
+	outline: none;
+	border-radius: 3px;
+	background-color: #a6dcef;
+	color: #fff;
+	font-size: 5rem;
+	font-weight: 600;
+	height: 8rem;
+	width: 8rem;
+	// height: 80%;
+	// max-height: 80%;
+	// width: 80%;
+	// max-width: 80%;
+	// margin: 3px;
+}
+.squarre:focus {
+	outline: none;
+}
+.squarre:hover {
+	background-color: #f2aaaa;
+}
+
+.victory {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid #333;
+	background-color: #ffc107;
+	outline: none;
+	border-radius: 3px;
+	color: #fff;
+	font-size: 5rem;
+	font-weight: 600;
+	height: 8rem;
+	width: 8rem;
+	// height: 80%;
+	// max-height: 80%;
+	// width: 80%;
+	// max-width: 80%;
+	// margin: 3px;
+}
+
+.squarre-draw {
+	background-color: #dddddd;
+}

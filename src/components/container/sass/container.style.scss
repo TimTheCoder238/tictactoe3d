@@ -1,0 +1,13 @@
+@import '../../../sass/mobile';
+
+.container {
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	// border: 1px solid green;
+	// min-width: 100%;
+	max-width: 100%;
+	margin: 0;
+	padding: 0;
+}

@@ -1,0 +1,131 @@
+.board {
+	&-body {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		border: 1px solid #333;
+		height: 25.7rem;
+		// max-height: 60%;
+		width: 25.7rem;
+		// max-width: 60%;
+		grid-gap: 0.3rem 0.3rem;
+		padding: 1rem;
+		// min-width: 0;
+		// min-height: 0;
+		flex-basis: auto;
+	}
+
+	&-body-3 {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		border: 1px solid #fafafa;
+		height: 25rem;
+		// max-height: 60%;
+		width: 25rem;
+		// max-width: 60%;
+		grid-gap: 0.1rem 0.1rem;
+
+		// min-width: 0;
+		// min-height: 0;
+		background-color: #fafafa;
+		padding: 0.3rem;
+		border-radius: 3px;
+	}
+
+	&-body-4 {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		border: 1px solid #fafafa;
+		height: 33.2rem;
+		// max-height: 60%;
+		width: 33.2rem;
+		// max-width: 60%;
+		grid-gap: 0.1rem 0.1rem;
+		padding: 1rem;
+		// min-width: 0;
+		// min-height: 0;
+		background-color: #fafafa;
+		padding: 0.3rem;
+		border-radius: 3px;
+	}
+
+	&-body-5 {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+		border: 1px solid #fafafa;
+		height: 41.5rem;
+		// max-height: 60%;
+		width: 41.5rem;
+		// max-width: 60%;
+		grid-gap: 0.1rem 0.1rem;
+		padding: 1rem;
+		// min-width: 0;
+		// min-height: 0;
+		background-color: #fafafa;
+		padding: 0.3rem;
+		border-radius: 3px;
+	}
+
+	&-body-6 {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-gap: 3%;
+		&-board {
+			// display: flex;
+			// align-items: center;
+			// justify-content: center;
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr;
+			border: 1px solid #fafafa;
+			// height: 41.5rem;
+			// max-height: 60%;
+			// width: 41.5rem;
+			// max-width: 60%;
+			grid-gap: 0.1rem 0.1rem;
+			padding: 1rem;
+			// min-width: 0;
+			// min-height: 0;
+			background-color: #fafafa;
+			padding: 0.3rem;
+			border-radius: 3px;
+		}
+	}
+
+	&-title {
+		margin-top: 2rem;
+		font-size: 3rem;
+		text-align: center;
+	}
+
+	&-message {
+		margin-top: 0.5rem;
+		font-size: 1.8rem;
+		text-align: center;
+	}
+
+	&-element {
+		margin-top: 0.5rem;
+		font-size: 2rem;
+		text-align: left;
+	}
+}
+
+.winner {
+	color: #ffc107;
+}
+
+.draw {
+	color: #8395a7;
+}
+
+.xplay {
+	color: #e91e63;
+}
+
+.oplay {
+	color: #3f51b5;
+}
+
+.title {
+	margin: auto auto 0.8rem auto;
+	text-align: center;
+}

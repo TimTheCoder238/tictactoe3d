@@ -1,0 +1,22 @@
+@media (max-width: 700px) {
+	.container {
+		flex-direction: column;
+	}
+
+	ul {
+		margin: auto;
+	}
+	.travel {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		margin: auto;
+		// text-align: center;
+		&-title {
+			margin: auto;
+			margin-top: 1rem;
+			text-align: center;
+		}
+	}
+}
